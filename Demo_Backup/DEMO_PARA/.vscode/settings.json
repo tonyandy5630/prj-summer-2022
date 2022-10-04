@@ -1,0 +1,10 @@
+{
+    "cSpell.words": [
+        "myservlet"
+    ],
+    "cSpell.enabled": false,
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "d:\\FPT\\PRJ301\\sqljdbc4.jar"
+    ]
+}

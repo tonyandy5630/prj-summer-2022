@@ -1,0 +1,124 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 10, 2022, 10:08:19 AM
+    Author     : Acer
+*/
+
+
+.search{
+    box-sizing: border-box;
+    margin: 0;
+    margin-top: -10px;
+    background: skyblue;
+}
+.bar-input{
+    width: 34%;
+    height: 32px
+}
+.bar-submit{
+    margin-left: -4px;
+    height: 32px
+}
+.cart{
+    position: fixed;
+    color: white;
+    right: 1%;
+    bottom: 5%;
+    font-size: 150%;
+    border: 0px solid goldenrod ;
+    border-radius:50px;
+    background-color: cadetblue;
+    width: 50px;
+    height: 50px;
+    text-align:  center;
+    padding-top: 1%;
+    transition: 0.8s;
+    display: none;
+}
+.quantity{
+    color: #fff;
+    background: red;
+    position: absolute;
+    top: -10px;
+    right: 0;
+    width: 20px;
+    height: 25px;
+    border: 0px;
+    border-radius: 50px;
+}
+.showitems{
+    margin-top: 20px;
+    display: flex;
+}
+.category{
+    flex: 0.2;
+    height: 800px;
+}
+.border{
+    margin-top: 17px;
+    border-bottom: lightslategray solid 5px;
+    width: 167px;
+    margin-left: 14px;
+}
+.category ul{
+    margin-top: 6%;
+    padding: 0 0 0 12px;
+}
+.category ul li{
+    text-decoration: none;
+    width: 98%;
+    list-style: none;
+    height: 40px;
+    font-size: 21px;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    background: linear-gradient(to right, wheat 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right ;
+    transition: 0.5s ease-out;
+    padding-top: 4px
+}
+.category ul li a{
+    text-decoration: none; 
+    width: 100%;
+}
+.category ul li:hover{
+    background-position: left;
+    cursor: pointer;
+}
+.category strong{
+    font-size: 25px; 
+    margin-bottom: 50px;
+    padding-left: 13px;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0.8;
+    margin-bottom: 50px;
+}
+.item{
+    width: 30%;
+    margin: 10px;
+
+}
+.item-img img{
+    width: 90%;
+    height: 350px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.item:hover img{
+    width: 95%;
+    height: 380px;
+    
+}
+.item:hover{
+    border: 1px solid black;
+    border-radius: 30px;
+}

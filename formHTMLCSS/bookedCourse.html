@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a5f6897527.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@391&family=Figtree&family=Nanum+Myeongjo:wght@700&family=Playfair+Display:wght@770&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bookedCourse.css">
+    <title>Booked Course</title>
+    <script>
+        function confirm(message) {
+            return window.confirm(message)
+        }
+    </script>
+</head>
+
+<body>
+    <h2>Booked Course</h2>
+    <div class="fullwidth-container__center error">
+        <div class="width-83-container">
+            <p>New quantity is larger than available course</p>
+        </div>
+    </div>
+    <div class="fullwidth-container__center  booked-course-area">
+        <form class="width-83-container course-container">
+            <div class="course-img"></div>
+            <div class="course-title">
+                <h3>Example Course</h3>
+                <h4>Example category</h4>
+            </div>
+            <div class="course-price">
+                <p>Price : 3$</p>
+            </div>
+            <div class="course-date">
+                <p>Start date: 1/1/2019</p>
+                <p>Start date: 1/1/2020</p>
+            </div>
+            <div class="course-quanity-container">
+                <input class="course-quanity" value="1">
+            </div>
+            <div class="buttons-container">
+                <button class="action-btn delete-btn" onclick="return confirm('Delete this item')"><i class="fa-solid fa-trash-can"></i></button>
+                <button class="action-btn update-btn"><i class="fa-solid fa-pen"></i></button>
+            </div>
+        </form>
+
+    </div>
+    <section class="fullwidth-container__center checkout-area">
+        <div class="width-83-container checkout-container">
+            <div class="check-out-content">
+                <p>Total money 3000</p>
+                <button class="checkout-btn">Checkout<i class="fa-solid fa-wallet"></i></button>
+            </div>
+
+        </div>
+    </section>
+
+</body>
+
+</html>

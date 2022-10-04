@@ -1,0 +1,45 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 21, 2022, 9:06:27 PM
+    Author     : Acer
+*/
+
+.title{
+    margin-left: 20%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    justify-content: space-around;
+    
+}
+.title a{
+    text-decoration: none;
+    padding-top: 2%;
+    font-size: 130%;
+}
+.productList{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px 0 5px;
+    width: 40%;
+    margin: 10px 0 10px 35%;
+}
+.row a{
+    margin-top: 4%;
+}
+.confirm{
+    margin-left: 30%;
+    width: 40%;
+    color: #fff;
+    background: skyblue;
+}
+.body{
+    min-height: calc(90vh - 72px - 39px);
+    margin: 0 auto;
+}

@@ -1,0 +1,31 @@
+{
+    "version": "0.2",
+    "ignorePaths": [],
+    "dictionaryDefinitions": [],
+    "dictionaries": [],
+    "words": [
+        "accid",
+        "addtocart",
+        "cateid",
+        "catename",
+        "chua",
+        "dathemvaogiohang",
+        "defaultstate",
+        "hoanthanhdonhang",
+        "imgpath",
+        "mydao",
+        "myservlet",
+        "ngay",
+        "nhap",
+        "pname",
+        "searchby",
+        "shipdate",
+        "toan",
+        "txtid",
+        "txtname",
+        "txtphone",
+        "viewcart"
+    ],
+    "ignoreWords": [],
+    "import": []
+}

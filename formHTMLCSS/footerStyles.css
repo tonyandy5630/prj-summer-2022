@@ -1,0 +1,14 @@
+footer {
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #272635;
+    height: 5rem;
+}
+
+footer p {
+    font-size: 17px;
+    color: #E8E9F3;
+}

@@ -1,0 +1,109 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 12, 2022, 2:12:13 PM
+    Author     : Acer
+*/
+.header{ 
+    background: linear-gradient(to bottom,wheat, skyblue);
+    padding-bottom: 64px;
+}
+.footer{
+    background: linear-gradient(to bottom,wheat, skyblue);
+    padding: 1% 0 0 30%;
+    height: 50px;
+}
+.copyright{
+    font-size: 25px;
+    color: dimgray;
+    font-weight: bold
+}
+.header__main{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px 0 20px;
+    align-items: center;
+} 
+.header__title{
+    color: dimgray;
+    font-size: 54px;
+    margin-left: 4%
+} 
+.header__btn{
+    width: 20%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+.btn-item{
+    color: skyblue;
+    background-color: white;
+    text-decoration: none;
+    padding: 5px;
+    font-size: medium;
+    border: 1px #fff solid;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.btn-item:hover{
+    opacity: 0.8;
+    text-decoration: none;
+}
+.header__text{ 
+    margin-top: 50px;
+    padding-left: 10%;
+    color: dimgray;
+}
+@keyframes  fade{
+    from{opacity: 0.4}
+    to  {opacity: 1  }
+}
+.fade1{
+    animation-name: fade;
+    animation-duration: 0.5s;
+}
+.header__slideshow{
+    width: 80%;
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.slide{
+    text-align: center;
+    display: none;
+    transition: 0.6s;
+}
+.slide-img{
+    width: 100%; 
+    height: 400px; 
+    border: 0px ;
+    border-radius: 20px;
+}
+.left, .right {
+    transition: 0.5s;
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    width: auto;
+    padding: 16px;
+    color: black; 
+    font-size: 40px;
+}
+
+.right{
+    right: 0px ;
+    border-radius: 0 5px 5px 0;
+}
+.left{
+    border-radius: 5px 0px 0px 5px;
+}
+.left:hover, .right:hover{
+    background-color: wheat;
+    opacity: 0.7;
+}

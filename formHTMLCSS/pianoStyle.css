@@ -1,0 +1,303 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .background {
+            display: flex;
+            position: relative;
+            width: 100%;
+            height: 100vh;
+        }
+        
+        .background__left {
+            background-color: #7b7666;
+            width: 58%;
+        }
+        
+        .background__right {
+            background-color: #f6f4d2;
+            width: 42%;
+        }
+        
+        .login-container {
+            position: absolute;
+            display: flex;
+            border-radius: 10px;
+            top: 10%;
+            bottom: 10%;
+            left: 13%;
+            right: 40%;
+            width: 70%;
+            height: 80%;
+            box-shadow: -6px 6px 21px 0px #2f2626;
+            /* background-color: crimson; */
+        }
+        
+        .login-container__left-container {
+            position: relative;
+            display: flex;
+            width: 46.5%;
+            border-radius: 10px 0 0 10px;
+            justify-content: center;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(images/piano.png);
+            background-size: cover;
+            height: 100%;
+            background-color: chocolate;
+        }
+        
+        .login-container__right-container {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            width: 58.5%;
+            height: 100%;
+            border-radius: 0 10px 10px 0;
+            background-color: #622B19;
+        }
+        
+        .title-container {
+            position: absolute;
+            display: flex;
+            font-family: 'Playfair Display', serif;
+            justify-content: space-evenly;
+            flex-direction: column;
+            top: 8%;
+            height: 45%;
+            width: 80%;
+            /* background-color: rgba(0, 0, 0, 0.5); */
+        }
+        
+        .login-container__footer {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 80%;
+            height: 10%;
+            bottom: 18px;
+            /* background-color: rgba(0, 0, 0, 0.5); */
+        }
+        
+        .footer-slogan {
+            font-family: 'Exo 2', sans-serif;
+            font-weight: 800;
+            font-size: 21px;
+        }
+        
+        .title {
+            text-align: center;
+            font-size: 128px;
+        }
+        
+        .sub-title {
+            text-align: center;
+            font-size: 34px;
+        }
+        
+        .line__thin__full-width {
+            border-top: 1px solid black;
+        }
+        
+        .line__thin__80-width {
+            border-top: 1px solid black;
+            width: 80%;
+        }
+        
+        .loginForm__container {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            display: flexbox;
+            bottom: 0;
+            width: 56%;
+            height: 80%;
+            /* background-color: rgba(0, 0, 0, 0.5); */
+        }
+        
+        .loginForm {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            width: 100%;
+            height: 59%;
+            /* background-color: rgba(98, 95, 95, 0.5); */
+        }
+        
+        .full-width-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            width: 100%;
+            height: 75%;
+        }
+        
+        .loginForm__footer {
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            color: white;
+            width: 100%;
+            height: 10%;
+            /* background-color: rgba(106, 78, 78, 0.5) */
+        }
+        
+        .login-title {
+            font-family: 'Exo 2', sans-serif;
+            font-size: 35px;
+            padding: 14px 0;
+            color: #DECDBE;
+        }
+        
+        .input-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            height: 23%;
+        }
+        
+        .submit-btn-container {
+            width: 100%;
+            height: 17%;
+            display: flex;
+            justify-content: flex-end;
+        }
+        
+        .login-btn {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            border-radius: 28px;
+            height: 100%;
+            width: 30%;
+            border: none;
+            font-size: 15px;
+            background-color: #141313;
+            color: white;
+            box-shadow: 0px 0px 5px 2px #525252a8;
+            transition: box-shadow 0.3s ease-in;
+        }
+        
+        .login-btn:hover {
+            box-shadow: 0px 0px 8px 6px #f89090a8;
+            cursor: pointer;
+        }
+        
+        .input-icon {
+            font-size: 20px;
+            color: #DECDBE;
+        }
+        
+        .register-link {
+            padding: 0 10px;
+            text-decoration: underline;
+            color: white;
+        }
+        
+        .input-bar {
+            border-radius: 30px;
+            font-size: 17px;
+            outline: none;
+            border: none;
+            padding: 0 10px;
+            background-color: #DECDBE;
+            width: 85%;
+            height: 70%;
+            font-family: 'Exo 2', sans-serif;
+            box-shadow: -1px 1px 19px 0px #505554ad;
+        }
+        /*the container must be positioned relative:*/
+        
+        .custom-select {
+            position: relative;
+            width: 65%;
+            font-family: 'Exo 2', sans-serif;
+        }
+        
+        .select-container {
+            width: 64%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: 'Exo 2', sans-serif;
+            font-weight: 600;
+            color: #DECDBE;
+            /* background-color: saddlebrown; */
+        }
+        
+        .select-container p {
+            display: flex;
+            font-size: 21px;
+            width: 60%;
+            text-align: center;
+        }
+        
+        .custom-select select {
+            display: none;
+            /*hide original SELECT element:*/
+        }
+        
+        .select-selected {
+            background-color: transparent;
+        }
+        /*style the arrow inside the select element:*/
+        
+        .select-selected:after {
+            position: absolute;
+            content: "";
+            top: 14px;
+            right: 10px;
+            width: 0;
+            height: 0;
+            border: 6px solid transparent;
+            border-color: #fff transparent transparent transparent;
+        }
+        /*point the arrow upwards when the select box is open (active):*/
+        
+        .select-selected.select-arrow-active:after {
+            border-color: transparent transparent #fff transparent;
+            top: 7px;
+        }
+        /*style the items (options), including the selected item:*/
+        
+        .select-items div,
+        .select-selected {
+            display: flex;
+            height: 100%;
+            font-size: 21px;
+            color: #ffffff;
+            padding: 8px 16px;
+            border: 1px solid transparent;
+            /* border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent; */
+            border: none;
+            cursor: pointer;
+            user-select: none;
+        }
+        /*style items (options):*/
+        
+        .select {
+            height: 19%;
+        }
+        
+        .select-items {
+            position: absolute;
+            background-color: #b45132;
+            top: 100%;
+            left: 0;
+            right: 0;
+            z-index: 99;
+        }
+        /*hide the items when the select box is closed:*/
+        
+        .select-hide {
+            display: none;
+        }
+        
+        .select-items div:hover,
+        .same-as-selected {
+            background-color: rgba(0, 0, 0, 0.1);
+        }

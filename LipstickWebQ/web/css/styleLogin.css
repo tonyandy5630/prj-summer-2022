@@ -1,0 +1,28 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 19, 2022, 3:43:38 PM
+    Author     : Acer
+*/
+
+form{
+    width: 50%;
+    text-align: center;
+    margin: 20px 0 0 25%;
+    margin-left: 25%;
+}
+ 
+.inputbox{
+    width: 80%;
+    display: flex;
+    margin: 10px 0 10px 22%;
+}
+label{
+    flex: 0.3;
+}
+input{
+    flex: 0.4;
+} 

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+  <head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <h1>Create a new plant</h1>
+    <form action="InsertPlantServlet" method="post">
+      <p>
+        Name:
+        <input
+          type="text"
+          name="txtname"
+          placeholder="plant name"
+          required=""
+        />
+      </p>
+      <p>
+        Price:
+        <input type="number" name="txtprice" min="1" max="1000" required="" />
+      </p>
+      <p>Image path: <input type="file" name="txtimgpath" /></p>
+      <p>
+        Description:
+        <textarea name="txtdescription" cols="30" rows="10"></textarea>
+      </p>
+      <p>
+        Status:
+        <select name="txtstatus">
+          <option value="1">con ban</option>
+          <option value="0">het ban</option>
+        </select>
+      </p>
+      <p>
+        Cate ID:
+        <select name="txtcateid">
+          <option value="1">rau</option>
+          <option value="2">cay kieng</option>
+          <option value="3">hoa</option>
+        </select>
+      </p>
+      <p><input type="submit" value="create" /></p>
+    </form>
+  </body>
+</html>

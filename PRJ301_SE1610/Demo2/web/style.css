@@ -1,0 +1,10 @@
+header, footer{
+    float:left;
+    width:100%;
+    background-color: pink;
+    height: 100px;
+}
+section { float:left;
+          width: 100%;
+          height: 600px;
+}

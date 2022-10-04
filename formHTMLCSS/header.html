@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a5f6897527.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@391&family=Figtree&family=Nanum+Myeongjo:wght@700&family=Playfair+Display:wght@770&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="headerStyles.css">
+    <link rel="stylesheet" href="searchStyle.css">
+    <link rel="stylesheet" href="recStyles.css">
+    <link rel="stylesheet" href="footerStyles.css">
+    <script src="headerScripts.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="welcome-container">
+            <div class="welcome-box">
+                Welcome, Tu
+            </div>
+            <div class="logout-box">
+                <a>Sign out</a>
+            </div>
+        </div>
+
+        <div class="full-width-container">
+            <div class="title-container">
+                <h1 class="title">TTK Piano Music Center</h1>
+                <h3 class="subtitle">Piano - Guitar - Drawing</h3>
+            </div>
+            <nav>
+                <div class="nav-item-container">
+                    <a class="main-link">HomePage</a>
+                    <span class="bottom-border"></span>
+                </div>
+                <div class="nav-item-container">
+                    <a class="main-link">Booked Course</a>
+                    <span class="bottom-border"></span>
+                </div>
+                <div class="nav-item-container">
+                    <a class="main-link">Login</a>
+                    <span class="bottom-border"></span>
+                </div>
+                <div class="nav-item-container dropdown">
+                    <a class="main-link" href="#">Courses</a>
+                    <div class="dropdown-content">
+                        <span class="content-container">
+                            <a>Update</a>
+                        </span>
+                        <span class="content-container">
+                            <a>Create</a>
+                        </span>
+
+                    </div>
+                    <!-- <span class="bottom-border"></span> -->
+                </div>
+                <div class="nav-item-container">
+                    <a class="main-link">About</a>
+                    <span class="bottom-border"></span>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+    <!-- #region Search area-->
+    <div class="search-container">
+        <form class="form">
+            <div class="search-bar-container">
+                <span class="icon-container">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </span>
+                <input type="text" class="search-bar" placeholder="Search a course name">
+            </div>
+            <div class="divider-bar"></div>
+            <div class="search-bar-container">
+                <span class="icon-container">
+                    <i class="fa-solid fa-book-bookmark"></i>
+                </span>
+                <input type="text" class="search-bar" placeholder="Search a category">
+            </div>
+            <button class="search-btn" type="submit">Search</button>
+        </form>
+    </div>
+    <!-- #endregion -->
+    <!-- #region Recommned area-->
+    <section class="recommend-area">
+        <div class="recommend-container">
+            <div class="recommend-text">
+                <h3>Some recommend to get started</h3>
+                <p>A strong, easy to understand, comprehensive course will be good for your journey to become a musican</p>
+                <div class="buttons-container">
+                    <button class="cate-btn">Piano</button>
+                    <button class="cate-btn">Guitar</button>
+                    <button class="cate-btn">Drawing</button>
+                </div>
+            </div>
+            <div class="recommend-courses">
+                <form class="course">
+                    <div class="course-img"></div>
+                    <div class="course-title">
+                        <div class="course-name__large">
+                            <h3>Example Course</h3>
+                        </div>
+                        <div class="small-cate">
+                            <p>Example category</p>
+                        </div>
+                    </div>
+                    <div class="course-date">
+                        Start Date 1/1/1999
+                    </div>
+                    <div class="course-price">
+                        Price 3$
+                    </div>
+                    <div class="course-instructor">
+                        Instructor : <span>Bui Thanh Tu</span>
+                    </div>
+                    <div class="update-date">
+                        Last update: June/2022
+                    </div>
+                    <div class="course-info">
+                        <div class="course-name__medium">
+                            <h3>Example Course</h3>
+                        </div>
+                        <div class="course-level">
+                            <p>Beginner</p>
+                        </div>
+                        <div class="course-desc">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                                a type specimen book.</p>
+                        </div>
+                        <div class="book-btn-container">
+                            <button>Book now</button>
+                            <p>4 class is available</p>
+                        </div>
+                    </div>
+                </form>
+                <div class="course">
+                    <div class="course-img"></div>
+                    <div class="course-title">
+                        <div class="course-name">
+                            <h3>Example Course</h3>
+                        </div>
+                        <div class="small-cate">
+                            <p>Example category</p>
+                        </div>
+                    </div>
+                    <div class="course-date">
+                        Start Date 1/1/1999
+                    </div>
+                    <div class="course-price">
+                        Price 3$
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="course-img"></div>
+                    <div class="course-title">
+                        <div class="course-name">
+                            <h3>Example Course</h3>
+                        </div>
+                        <div class="small-cate">
+                            <p>Example category</p>
+                        </div>
+                    </div>
+                    <div class="course-date">
+                        Start Date 1/1/1999
+                    </div>
+                    <div class="course-price">
+                        Price 3$
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="course-img"></div>
+                    <div class="course-title">
+                        <div class="course-name">
+                            <h3>Example Course</h3>
+                        </div>
+                        <div class="small-cate">
+                            <p>Example category</p>
+                        </div>
+                    </div>
+                    <div class="course-date">
+                        Start Date 1/1/1999
+                    </div>
+                    <div class="course-price">
+                        Price 3$
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- #endregion -->
+    <!-- #region Footer-->
+    <footer>
+        <p>All copyright belong to Bui Thanh Tu SE151150</p>
+        <p>Contact me via tonyandy789@gmail.com</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/home/thanhtra/FPT/PRJ301/servlet-api.jar",
+        "/home/thanhtra/FPT/PRJ301/sqljdbc4.jar"
+    ]
+}
